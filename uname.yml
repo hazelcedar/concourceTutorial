@@ -3,6 +3,6 @@ image_resource:
   type: docker-image
   source: {repository: busybox}
 run:
-  path: uname
-  args: [-a]
+  path: date
+  args: [-u]
 

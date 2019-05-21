@@ -13,6 +13,7 @@ jobs:
   public: true
   plan:
   - get: hazelResource
+    trigger: true
   - task: hello-world
     file: hazelResource/hello.yml
   - task: uname
