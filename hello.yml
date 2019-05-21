@@ -4,4 +4,4 @@ image_resource:
   source: {repository: alpine/git}
 run:
   path: git
-  args: [status]
+  args: [-v]
