@@ -1,9 +1,9 @@
 ---
 resources:
-- name: resource
-  type: git
-  source:
-    uri: https://github.com/starkandwayne/concourse-tutorial.git
+#- name: resource
+#  type: git
+#  source:
+#    uri: https://github.com/starkandwayne/concourse-tutorial.git
 - name: hazelResource
   type: git
   source:
