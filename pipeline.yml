@@ -12,7 +12,7 @@ jobs:
 - name: job-hello-world
   public: true
   plan:
-  - get: hqzelResource
+  - get: hazelResource
   - task: hello-world
     file: hazelResource/concourceTutorial/hello.yml
 
