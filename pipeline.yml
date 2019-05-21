@@ -15,4 +15,5 @@ jobs:
   - get: hazelResource
   - task: hello-world
     file: hazelResource/hello.yml
-
+  - task: uname
+    file: hazelResource/uname.yml
