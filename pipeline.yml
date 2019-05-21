@@ -4,6 +4,10 @@ resources:
   type: git
   source:
     uri: https://github.com/starkandwayne/concourse-tutorial.git
+- name: hazelResource
+  type: git
+  source:
+    uri: https://github.com/hazelcedar/concourceTutorial.git
 jobs:
 - name: job-hello-world
   public: true
