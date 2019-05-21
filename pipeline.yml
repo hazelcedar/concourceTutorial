@@ -14,5 +14,5 @@ jobs:
   plan:
   - get: hazelResource
   - task: hello-world
-    file: hazelResource/concourceTutorial/hello.yml
+    file: hazelResource/hello.yml
 
