@@ -3,7 +3,7 @@
 set -e # fail fast
 set -x # print commands
 
-git clone repo-concourse updated-log
+git clone repo-log updated-log
 
 cd updated-log
 
